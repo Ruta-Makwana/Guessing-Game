@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find the number game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <div class="container">
+            <h1>Guess and Check!</h1>
+            <h2>Let's Play!</h2>
+            <p id="descriptionPara">I am thinking of a number between 1 and 100. <br><br>Can you guess what it is? <br> <br><br>
+                You get 5 attempts to make the right guess!
+            </p>
+    
+            <h4>Enter Your Guess:</h4>
+            <input type="number" id="input-number">
+            <button id="btn-guess">Check the Guess</button>
+    
+            <p>Number of attempts left: <span id="attempts"></span></p>
+            
+            <p id="rangePara">The number can be betweeen <span id="range-min">1</span> and <span id="range-max">100</span></p>
+            <p id="resultPara"><span id="result"></span></p>
+            <p id="playAgain"><a href="index.html" id="playAgainButton"></a></p>
+        </div>
+    </div>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
