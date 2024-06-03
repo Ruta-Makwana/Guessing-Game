@@ -1,7 +1,7 @@
 // Create random number
 
 const randomNumber = Math.ceil(Math.random() * 100);
-console.log(randomNumber);
+// console.log(randomNumber);
 
 // Create and assign the total attempts
 
